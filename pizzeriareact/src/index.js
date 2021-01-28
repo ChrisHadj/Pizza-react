@@ -7,11 +7,11 @@ import { BrowserRouter, Route, Switch, HashRouter } from "react-router-dom";
 
 const rootElement = document.getElementById("root");
 ReactDOM.render(
-  <HashRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL + '/'}>
     <Switch>
-      <Route exact path="/" component={App} />
-      <Route path="/Menu" component={Menu} />
+      <Route exact path="https://chrishadj.github.io/Pizza-react/" component={App} />
+      <Route path="https://chrishadj.github.io/Pizza-react/menu" component={Menu} />
     </Switch>
-  </HashRouter>,
+  </BrowserRouter>,
   rootElement
 );

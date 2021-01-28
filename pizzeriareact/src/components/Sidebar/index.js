@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, Hash } from "react-router-dom";
 import {
   SidebarContainer,
   Icon,
